@@ -2,3 +2,7 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your Javascript code.
+
+window.onload = function () {
+    document.getElementById('fade-in').style.opacity = 1;
+}

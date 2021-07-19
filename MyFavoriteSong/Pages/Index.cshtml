@@ -3,8 +3,12 @@
 @{
     ViewData["Title"] = "Home page";
 }
-
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="myContainer">
+        <div class="myAnimation">
+            <h1 class="display-4" id="fade-in">My Favorite Song</h1>
+            <p class="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/XoYu7K6Ywkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        </div>
+    </div>
 </div>
+<script src="./js/site.js"></script>
